@@ -13,4 +13,8 @@ public class HelloController {
     public  String get(){
         return "get";
     }
+    @RequestMapping("/set")
+    public String set(){
+        return "set";
+    }
 }
