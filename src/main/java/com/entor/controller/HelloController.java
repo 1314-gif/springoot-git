@@ -17,4 +17,8 @@ public class HelloController {
     public String set(){
         return "set";
     }
+    @RequestMapping("helloxiaoqiang")
+    public String sayui(){
+        return "小强";
+    }
 }
