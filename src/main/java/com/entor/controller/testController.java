@@ -7,4 +7,6 @@ public class testController {
 
     private String a;
 
+    private String b;
+
 }
